@@ -31,9 +31,9 @@
 			],
 			"group": "build",
 			"label": "quarkus:dev (Tasks/1.2/extended_hello_world)",
-			"command": "./mvnw quarkus:dev ",
+			"command": "mvn quarkus:dev ",
 			"windows": {
-				"command": ".\\mvnw.cmd quarkus:dev "
+				"command": "mvn quarkus:dev "
 			},
 			"options": {
 				"cwd": "Tasks/1.2/extended_hello_world"
@@ -65,9 +65,9 @@
 			],
 			"group": "build",
 			"label": "package -Pnative (Tasks/1.2/extended_hello_world)",
-			"command": "./mvnw package -Pnative ",
+			"command": "mvn package -Pnative ",
 			"windows": {
-				"command": ".\\mvnw.cmd package -Pnative "
+				"command": "mvn package -Pnative "
 			},
 			"options": {
 				"cwd": "Tasks/1.2/extended_hello_world"
